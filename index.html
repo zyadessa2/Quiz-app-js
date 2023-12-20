@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Quiz App</title>
+    </head>
+<body>
+    <div class="quiz-container vh-100 d-flex justify-content-center align-items-center">
+        <div class="box" id="box">
+            <div class="box-body" id="boxBody">
+                <h2 id="question">how are you ?</h2>
+                <ul>
+                    <li>
+                        <input type="radio" class="answer"  name="answer" id="a">
+                        <label id="a_text" for="a">answer 1</label>
+                    </li>
+                    <li>
+                        <input type="radio" class="answer" name="answer" id="b">
+                        <label id="b_text" for="b">answer 1</label>
+                    </li>
+                    <li>
+                        <input type="radio" class="answer" name="answer" id="c">
+                        <label id="c_text" for="c">answer 1</label>
+                    </li>
+                    <li>
+                        <input type="radio" class="answer" name="answer" id="d">
+                        <label id="d_text" for="d">answer 1</label>
+                    </li>
+                </ul> 
+            </div>
+            <button class="btn-submit" id="submit" onclick="submit()">submit</button>
+        </div>
+    </div>
+
+    <script src="js/all.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/code.jquery.com_jquery-3.7.0.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>

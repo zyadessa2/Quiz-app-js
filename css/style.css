@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Hachi Maru Pop', cursive;
+}
+.quiz-container{
+    background-image: linear-gradient(to right, #EDF1F4, #C3CBDC);
+}
+.box{
+    background-color: #fff;
+    box-shadow: 2px 5px 10px  rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    overflow: hidden;
+}
+ h2{
+font-size: 30px;
+font-weight: 700;
+margin: 30px 0px;
+padding: 0px 20px;
+color: teal;
+}
+.box-body{
+    margin: 50px;
+}
+.box-body ul li{
+    list-style: none;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 20px 0px;
+    color: rgb(29, 29, 75);
+    cursor: pointer;
+}
+.box-body ul li label{
+    cursor: pointer;
+}
+.btn-submit{
+    border: none;
+    width: 100%;
+    padding: 16px 0px;
+    background-color: #c75ed4;
+    font-size: 20px;
+    font-weight: 600;
+}
+.btn-submit:hover{
+    background-color: #a04cac;
+}
